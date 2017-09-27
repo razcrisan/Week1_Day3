@@ -78,6 +78,41 @@ namespace Week1_Day3
             //    Console.WriteLine("Thats not really your age.");
             //}
 
+            Console.WriteLine("How many points did you earn?");
+            int pointsEarned = int.Parse(Console.ReadLine());
+
+            switch (pointsEarned)
+            {
+                case 0:
+                    Console.WriteLine("You lose.");
+                    break;
+                case 1:
+                    Console.WriteLine("Needs Practice.");
+                    break;
+                case 2:
+                    Console.WriteLine("On Target!");
+                    break;
+                case 3:
+                    Console.WriteLine("SuperStar!!!!!!!!!!");
+                    break;
+                case 4:
+                    Console.WriteLine("NERD!!!");
+                    break;
+                case 5:
+                    Console.WriteLine("Elitist");
+                    break;
+                default:
+                    Console.WriteLine("Invalid Score Bruh");
+                    break;
+
+
+
+               
+
+
+              
+
+            }
 
 
 
