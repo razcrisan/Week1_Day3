@@ -44,39 +44,40 @@ namespace Week1_Day3
             //    Console.WriteLine("Bloop");
             //}
 
-            Console.WriteLine("How old are you?");
-            int userAge = int.Parse(Console.ReadLine());
+            //Console.WriteLine("How old are you?");
+            //int userAge = int.Parse(Console.ReadLine());
 
-            if (userAge >= 0 && userAge <= 1)
-            {
-                Console.WriteLine("Just a baby!");
-            }
+            //if (userAge >= 0 && userAge <= 1)
+            //{
+            //    Console.WriteLine("Just a baby!");
+            //}
 
-            else if (userAge > 1 && userAge < 4)
+            //else if (userAge > 1 && userAge < 4)
 
-            {
-                Console.WriteLine("Yay Toddlers");
-            }
+            //{
+            //    Console.WriteLine("Yay Toddlers");
+            //}
 
-            else if (userAge >= 4 && userAge < 13)
+            //else if (userAge >= 4 && userAge < 13)
 
-            {
-                Console.WriteLine("Enjoy your childhood");
-            }
-            else if (userAge >= 13 && userAge < 65)
+            //{
+            //    Console.WriteLine("Enjoy your childhood");
+            //}
+            //else if (userAge >= 13 && userAge < 65)
 
-            {
-                Console.WriteLine("Life is Awkward");
-            }
+            //{
+            //    Console.WriteLine("Life is Awkward");
+            //}
 
-            else if (userAge >= 65 && userAge < 100)
-            {
-                Console.WriteLine("Enjoy your retirement.");
-            }
-            else
-            {
-                Console.WriteLine("Thats not really your age.");
-            }
+            //else if (userAge >= 65 && userAge < 100)
+            //{
+            //    Console.WriteLine("Enjoy your retirement.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Thats not really your age.");
+            //}
+
 
 
 
